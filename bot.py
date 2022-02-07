@@ -9,7 +9,7 @@ import openai
 # Load venv, openai key
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-completion = opneai.Completion()
+completion = openai.Completion()
 
 start_sequence = "\nSharkbot"
 restart_sequence = "\nPerson"
